@@ -1,0 +1,28 @@
+/* Responsive */
+
+@media (max-width: 992px) {
+  .skill-card {
+    background-color: var(--white);
+    height: 30vh;
+  }
+
+  
+}
+
+@media (max-width: 768px) {
+  .skill-card {
+    background-color: var(--white);
+    height: 30vh;
+  }
+
+  
+}
+
+@media (max-width: 576px) {
+  .skill-card {
+    background-color: var(--white);
+    height: 30vh;
+  }
+
+  
+}

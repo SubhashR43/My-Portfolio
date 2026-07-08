@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.main {
+    background: url(assest/images/hero-image.jpg);
+    background-position: center center;
+    background-size: max(1600px, 100vw);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.main .sub-main {
+    width: 100%;
+    height: 100%;
+    opacity: 0.55;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+}
+
+.main nav {
+    width: 60vw;
+    height: 10vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main nav span img {
+    position: relative;
+    z-index: 10;
+}
+
+nav .buttons {
+    position: relative;
+    z-index: 10;
+}
+
+select {
+    padding: 8px 25px;
+    color: #fff;
+    background-color: rgba(128, 128, 128, 0.062);
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+}
+
+.btn {
+    background-color: rgb(229, 9, 20);
+    padding: 11px 20px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 3px;
+}
+
+.main-content {
+    height: 80%;
+    width: 55Vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 10;
+}
+
+.main-content> :nth-child(1) {
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 0px 40px;
+}
+
+.main-content> :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    padding: 10px 40px;
+}
+
+.main-content> :nth-child(3) {
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 40px;
+}
+
+.main-content .mail {
+    display: flex;
+    justify-content: center;
+    margin: 10px 20px;
+}
+
+.main-content .mail input {
+    padding: 8px 40px;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.404);
+}
+
+.sec-1 {
+    height: 80vh;
+    width: 100%;
+    border-top: 4px solid rgb(231, 93, 93);
+    box-shadow: 0px -3px 30px rgb(231, 93, 93), inset -3px 10px 10px rgba(101, 117, 255, 0.411);
+    border-top-left-radius: 45%;
+    border-top-right-radius: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.sec-1 .sec-content {
+    width: 80%;
+    height: 70%;
+    margin: auto;
+}
+
+.sec-1 .sec-content h2 {
+    color: #fff;
+    margin: 30px 10px;
+}
+
+.sec-1 .sec-content img {
+    border-radius: 5px;
+    margin: 0px 5px;
+    transition: transform 0.5s ease-out;
+}
+
+.sec-1 .sec-content img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.sec-1 .sec-content .image-box {
+    position: relative;
+}
+
+.sec-1 .sec-content .num {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 5px rgb(255, 255, 255);
+    font-size: 80px;
+    z-index: 10;
+}
+
+.sec-2 {
+    height: 80vh;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+.sec-2 h2 {
+    display: inline-block;
+    margin: 20px 135px;
+}
+
+.sec-2 .sec2-content {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.sec-2 .sec2-content .sec-box {
+    height: 45vh;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(40, 40, 75, 0.5), rgba(40, 40, 75, 0.5), rgba(247, 144, 161, 0.5));
+}
+
+.sec2-content .sec-box h3 {
+    padding: 15px;
+}
+
+.sec2-content .sec-box p {
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.sec-3 {
+    height: 80vh;
+    width: 80%;
+    color: #fff;
+    margin: auto;
+}
+
+.sec-3 .sec3-content {
+    margin-block: 10px;
+    height: 10vh;
+    background-color: rgb(45, 45, 45);
+    padding: 20px;
+    transition: background-color 0.5s ease-out;
+}
+
+.sec-3 .sec3-content:hover {
+    background-color: rgb(70, 70, 70);
+}
+
+.end-mail {
+    height: 20vh;
+    width: 80%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+}
+
+.end-mail input {
+    padding: 7px 25px;
+    width: 40vw;
+    font-size: 16px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: rgba(128, 128, 128, 0.404);
+}
+
+.end-mail span {
+    display: inline-block;
+    margin-block: 20px;
+}
+
+.end {
+    width: 80%;
+    margin: 30px 0px;
+    display: grid;
+    gap: 30px;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.end-content {
+    margin: 20px 135px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+ul li {
+    list-style: none;
+}
+
+.end ul li a {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer {
+    height: 40vh;
+    width: 80%;
+    margin: auto;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+footer select {
+    display: block;
+    margin: 50px 0px;
+}
+
+footer span {
+    display: block;
+    margin: 50px 0px;
+}

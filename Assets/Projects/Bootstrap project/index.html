@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstarp file -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <!-- our css file -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- our media file -->
+    <link rel="stylesheet" href="CSS/media.css">
+    <!-- font awesome file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <!-- font file -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>Bootstrap Project</title>
+</head>
+
+<body>
+    <!-- project start here... -->
+    <!-- modal for registraion form -->
+    <div class="modal fade" id="drop-btn">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="dropdownModalLabel">Book Demo</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container p-5 rounded-3">
+                        <form class="bannerForm">
+                            <h3>Book Your Class Now!</h3>
+                            <p>2 days of demo classes without paying in advance!</p>
+                            <div class="mb-3">
+                                <label class="form-label mb-0" for="form-control">Name</label>
+                                <input type="text" placeholder="Enter Your Name" class="form-control mb-2">
+                                <label class="form-label mb-0" for="form-control">E-Mail</label>
+                                <input type="email" placeholder="Enter Your E-Mail" class="form-control mb-2">
+                                <label class="mb-0" for="form-control">Phone Number</label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">+91</span>
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn form-btn">Register Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <header class="container-fluid shadow-lg ">
+        <!-- Nav Bar container  -->
+        <div class="container">
+            <!-- Use row for responsive design -->
+            <div class="row row1 d-flex align-items-center">
+                <!-- In Row 1st column -->
+                <div class="col-sm-6 col-12 text-lg-start text-center">
+                    <!-- logo -->
+                    <a href="#"><img src="images/logo.png" width="140px" alt="logo"></a>
+                </div>
+                <!-- In Row 2nd column -->
+                <div class="col-sm-6 nav-btn-group">
+                    <!-- 1st button on nav bar -->
+                    <div class="nav-button d-flex justify-content-sm-end align-items-center gap-3 container-fluid">
+                        <button class="btn btn-outline-success"><i class="fa-brands fa-whatsapp"></i> Contact With
+                            Us</button>
+                        <!-- 2nd button on nav bar -->
+                        <button class="btn btn2 "> <i class="fa-solid fa-phone"></i> Call Us</button>
+                    </div>
+                </div>
+            </div>
+    </header>
+    <!-- Main Heading content here... -->
+    <section class="container-fluid">
+        <div class="container">
+            <div class="row justify-content-between align-items-center my-5 gap-5">
+                <div class="col-sm-6 headcontent">
+                    <h1>Career Opportunities in <span>Digital Marketing</span></h1>
+                    <p class="my-3">Digital marketing course so good, you only pay after placement</p>
+                    <ul class="m-0 p-0">
+                        <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Specialization: Performance Marketing
+                        </li>
+                        <li class="mb-3"><i class="fa-solid fa-circle-check"></i> Min salary of Rs 4.5 LPA</li>
+                        <li class="mb-3"><i class="fa-solid fa-circle-check"></i> 50 seats only</li>
+                    </ul>
+                    <div class="head-content-btns mt-3 d-flex ">
+                        <button type="button" class="btn me-lg-2 head-content-btn1" data-bs-target="#drop-btn"
+                            data-bs-toggle="modal">Book 2 Day Demo</button>
+                        <button class="btn head-content-btn2"><i class="fa-solid fa-download"></i> Download
+                            Curriculum</button>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="container shadow-lg p-5 rounded-3">
+                        <form class="bannerForm">
+                            <h3>Book Your Class Now!</h3>
+                            <p>2 days of demo classes without paying in advance!</p>
+                            <div class="mb-3">
+                                <label class="form-label mb-0" for="form-control">Name</label>
+                                <input type="text" placeholder="Enter Your Name" class="form-control mb-2">
+                                <label class="form-label mb-0" for="form-control">E-Mail</label>
+                                <input type="email" placeholder="Enter Your E-Mail" class="form-control mb-2">
+                                <label class="mb-0" for="form-control">Phone Number</label>
+                                <div class="input-group mb-3">
+                                    <span class="input-group-text" id="basic-addon1">+91</span>
+                                    <input type="text" class="form-control" placeholder="Phone Number">
+                                </div>
+                                <div class="mb-3">
+                                    <button class="btn form-btn">Register Now</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bar section here... -->
+
+        <div class="container shadow-lg rounded-3">
+            <div
+                class="row text-center row-cols-lg-5 row-cols-sm-5 row-cols-2 justify-content-between align-items-center  my-5  bar-section">
+                <div class="col py-3">
+                    <h4>1000+</h4>
+                    <p>Students Trained</p>
+                </div>
+                <div class="col py-3">
+                    <h4>&#8377;4.5 LPA</h4>
+                    <p>Packages</p>
+                </div>
+                <div class="col py-3">
+                    <h4>320+</h4>
+                    <p>Recruting Partners</p>
+                </div>
+                <div class="col py-3">
+                    <h4>10:00 AM</h4>
+                    <p>Program Timing</p>
+                </div>
+                <div class="col py-3">
+                    <h4>11th May</h4>
+                    <p>Next Batch Start</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="container-fluid highlight-section py-4">
+        <div class="container">
+            <div class="row mb-4">
+                <div class="col-12 highlight-section-heading">
+                    <h3>Key Highlights of the coursse</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione mollitia magnam.</p>
+                </div>
+            </div>
+            <div class="row gy-3">
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white d-flex justify-content-start align-items-center p-3 rounded-3 highlight-box">
+                        <div class="i-btn i-btn-1 me-4"><i class="fa-solid fa-book"></i></div>
+                        <div>
+                            <h5>Assignments & <br> Modules tests</h5>
+                            <p>Test your knowledge</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 ">
+                    <div class="bg-white d-flex justify-content-start align-items-center p-3 rounded-3 highlight-box">
+                        <div class="i-btn i-btn-2 me-4"><i class="fa-regular fa-star"></i></div>
+                        <div>
+                            <h5>Industry-recognized<br> Certification</h5>
+                            <p>Stand out to your professional</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white d-flex justify-content-start align-items-center p-3 rounded-3 highlight-box">
+                        <div class="i-btn i-btn-3 me-4"><i class="fa-solid fa-video"></i></div>
+                        <div>
+                            <h5>Live Classes & <br> Recorded Lectures</h5>
+                            <p>Best of both worlds of learning </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white d-flex justify-content-start align-items-center p-3 rounded-3 highlight-box">
+                        <div class="i-btn i-btn-4 me-4"><i class="fa-solid fa-download"></i></div>
+                        <div>
+                            <h5>Downlodable<br> Content </h5>
+                            <p>With lifetime access</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white d-flex justify-content-start align-items-center p-3 rounded-3 highlight-box">
+                        <div class="i-btn i-btn-5 me-4"><i class="fa-regular fa-newspaper"></i></div>
+                        <div>
+                            <h5>6 Industry Level<br> Projects</h5>
+                            <p>Get practical Skills</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="bg-white d-flex justify-content-start align-items-center p-3 rounded-3 highlight-box">
+                         <div class="i-btn i-btn-6 me-4"><i class="fa-regular fa-comment-dots"></i></div>                       
+                        <div>
+                            <h5>4 Live Doubt Clearing<br> Sessions</h5>
+                            <p>Gain a clear understanding</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer></footer>
+    <!-- script bootstrap file -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

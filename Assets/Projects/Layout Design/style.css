@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --p-color: #014b22;
+    --s-color: #60c78b;
+    --font-color: #aaf7e6;
+    --font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background: linear-gradient(to top left,#60c78b,#014b22,#60c78b,#aaf7e6);
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+    font-family: var(--font);
+    letter-spacing: 0.7px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 10px;
+    margin-right: 25px;
+}
+
+header .navbar {
+    height: 8vh;
+    width: 100vw;
+    background: var(--p-color);
+    color: var(--font-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+}
+
+h1 {
+    padding: 0px 30px;
+}
+
+/* container style css  */
+main{
+    height: 300vh;
+}
+.container {
+    height: 100vh;
+    width: auto;
+    background: linear-gradient(to top right, rgb(0, 0, 0), rgba(2, 255, 108, 0.204)), url('https://wallpapers.com/images/featured/office-desk-a1yivbaxal92jim2.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box {
+    height: 60vh;
+    width: 40vw;
+    border: 1px groove aquamarine;
+    border-radius: 90px 10px;
+    background-color: rgba(127, 255, 212, 0.301);
+    box-shadow: 0px 0px 10px 10px rgba(127, 255, 212, 0.301);
+}
+
+/* panal layout design css */
+.panal{
+    height: 15vh;
+    width: 80vw;
+    margin: 150px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: var(--p-color);
+    background: linear-gradient(to top right,#014b22,#60c78b,#aaf7e6,#014b22);
+    border-radius: 250px;
+    box-shadow: 0px 0px 20px 20px rgba(127, 255, 212, 0.301) inset;
+}
+
+/* footer layout design css */
+footer{
+    height: 7vh;
+    background-color: var(--p-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    color: var(--font-color);
+}
+
+.contact span {
+    margin-inline: 15px;
+}
+
+.arrow {
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: #ff7b00;
+}
+

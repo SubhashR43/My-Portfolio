@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Heading CSS */
+h1 {
+  padding: 10px;
+  font-weight: 600;
+  text-align: center;
+  background-color: #081b31;
+  color: #fff;
+}
+
+/* Selection coisces image CSS */
+.choice {
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+}
+
+.choice img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+  transition: all 5s linear;
+}
+
+.choice img:hover {
+  border: 5px solid #081b31;
+}
+
+.choices {
+  height: 30vh;
+  width: 60vw;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Score board CSS */
+.score-board {
+  height: 20vh;
+  width: 60vw;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.score-board #user-score,
+#computer-score {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+/* Msg Container CSS */
+.msg-container {
+  height: 20vh;
+  width: 60vw;
+  margin: 20px auto;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+#msg {
+  background-color: #081b31;
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 10px;
+  border: none;
+}

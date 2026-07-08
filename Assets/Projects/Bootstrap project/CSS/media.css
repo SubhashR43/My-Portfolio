@@ -1,0 +1,48 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1170px;
+    }
+}
+
+@media only screen and (min-width: 200px)and (max-width: 575px) {
+    .nav-button {
+        background-color: #fff;
+        width: 100vw;
+        justify-content: center;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        z-index: 100;
+        padding: 10px 0px;
+    }
+
+    .nav-btn-group {
+        padding: 0;
+    }
+
+    .head-content-btns {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media only screen and (min-width: 576px)and (max-width: 995px) {
+    .row1 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .head-content-btns {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+}

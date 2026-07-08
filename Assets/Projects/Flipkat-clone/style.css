@@ -1,0 +1,304 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: rgb(231, 230, 230);
+}
+
+/* This is header section in html web page */
+header {
+    height: 230px;
+    width: 100%;
+}
+
+/* This is the upper section in header section  */
+.upper-sec {
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0px;
+}
+
+/* This is the logo section in upper section  */
+.logo {
+    height: 50px;
+    width: 15vw;
+
+}
+
+.logo-img {
+    background-image: url("flipkart-head-logo.svg");
+    background-size: 100% 100%;
+    background-color: white;
+    height: 50px;
+}
+
+/* This is the search bar section in upper section  */
+.search-bar {
+    height: 50px;
+    width: 45vw;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.search-bar i {
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(223, 237, 248);
+}
+
+.search-bar input {
+    height: 50px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgba(66, 66, 66, 0.7);
+    border: none;
+    background-color: rgb(223, 237, 248);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+/* This is the log in section in upper section  */
+.log-in-sec {
+    height: 50px;
+    width: 35vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.4rem;
+    background-color: white;
+
+}
+
+.log-in-sec :nth-child(1) {
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.log-in-sec :nth-child(2) {
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+/* This is the hover effect on log in option  */
+.log-in-sec :nth-child(2):hover {
+    background-color: #047BD5;
+    color: white;
+    border-radius: 20px;
+}
+
+.log-in-sec :nth-child(3) {
+    height: 40px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.log-in-sec :nth-child(4) {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: white;
+}
+
+.log-in-sec :nth-child(4):hover {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+/* This is the second header section in html css  */
+.second-sec {
+    height: 150px;
+    width: 96vw;
+    margin: 10px auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    top: 60px;
+}
+
+.second-sec-img {
+    height: 120px;
+    width: 10vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.second-sec-img img {
+    height: 80px;
+    width: 8vw;
+    background-color: white;
+}
+
+.second-sec-img span {
+    background-color: white;
+}
+
+.second-sec .second-sec-img span {
+    text-align: center;
+}
+
+/* This is the slide bar section in main section css */
+.slidebar {
+    height: 200px;
+    width: 96vw;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.slidebar img {
+    height: 190px;
+    width: 96vw;
+}
+
+/* This is the shop section in main section css */
+.shop-sec {
+    height: 350px;
+    width: 96vw;
+    background-color: white;
+    margin: 10px auto;
+}
+
+.shop-sec h2 {
+    padding: 10px;
+    background-color: white;
+}
+
+.shop-box-sec {
+    height: 300px;
+    width: 96vw;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.shop-box {
+    height: 250px;
+    width: 150px;
+    border: 2px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background-color: white;
+}
+
+.shop-box img {
+    height: 150px;
+    width: 130px;
+    background-color: white;
+}
+
+.shop-box p {
+    color: rgb(109, 109, 109);
+    background-color: white;
+}
+
+.shop-box a {
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+.shop-box a i {
+    background-color: white;
+}
+
+/* This is the foot panal 1 in footer section css */
+.foot-panal1 {
+    height: 320px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid #ccc;
+}
+
+/* This is the list section in foot panal 1 section css  */
+.foot-list1 {
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.foot-list1 ul {
+    background-color: black;
+    margin-block: 30px;
+}
+
+.foot-list1 ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    background-color: black;
+}
+
+.foot-list1 ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* This is the foot panal 2 in foot section css */
+.foot-panal2 {
+    height: 80px;
+    width: 100%;
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-panal2,
+p,
+i {
+    background-color: black;
+}
+
+.foot-panal2 p i {
+    color: yellow;
+}
